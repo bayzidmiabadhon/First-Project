@@ -1,0 +1,39 @@
+a{
+    color: green;
+    background-color: red;
+    font-size: 70px;
+    padding: 10px 20px;
+    border: 5px solid blue;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: black;
+    border-color: blue;
+}
+a:active{
+    color: red;
+    background-color: teal;
+    border-color: black;
+}
+a:visited{
+    color: blue;
+    background-color: turquoise;
+}
+ul{
+    color: blue;
+    list-style-type: square;
+}
+table,th,td{
+    border: 5px solid blue;
+    border-collapse: collapse;
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+th,td{
+    color: royalblue;
+    padding: 15px;
+    font-size: 20px;
+}
